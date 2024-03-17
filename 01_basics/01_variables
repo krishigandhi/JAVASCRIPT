@@ -1,0 +1,8 @@
+const AccNo = 123456
+let Name = "Krishi"
+var AccPass = "123456"
+Email = "krishi@google.com"
+AccCity = "Bengluru"
+let AccountID 
+console.log(AccNo);
+console.table([Name, AccPass , Email,AccCity, AccountID])
