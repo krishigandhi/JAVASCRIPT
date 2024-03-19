@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .darkmode{
+        background-color: #212121;
+        color:#fff;
+        padding: 12px;
+    }
+</style>
+<body class="darkmode">
+    <ul class="language">
+        <li>JS</li>
+    </ul>
+</body>
+<script>
+    function myLanguage(myLang){
+    const li = document.createElement('li');
+        li.innerHTML = `${myLang}`;
+        document.querySelector('.language').appendChild(li);
+    }
+    myLanguage("JavaScript")
+    myLanguage("typescript")
+
+//Below method is more optimized 
+    function optiLang(myLang){
+      const li = document.createElement('li');
+      li.appendChild(createTextNode(myLang));
+      document.querySelector('.language').appendChild(li);
+    }
+    myLanguage("Python")
+
+    //Edit
+  const edit = document.querySelector("li:nth-child(2)");
+    // edit.innerHTML = "Eddited";
+    const newedit = document.createElement('li');
+    newedit.textContent = "MOJO";
+    edit.replaceWith(newedit);
+
+    //edit
+    const edit2 = document.querySelector("li:first-child");
+    edit2.outerHTML = '<li>Typescript</li>';
+
+    //Remove
+    const edit3 = document.querySelector("li:last-child");
+    edit3.remove()
+</script>
+</html>
