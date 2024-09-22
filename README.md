@@ -1,1 +1,2 @@
-# Js-questions
+# JavaScript Practice
+
