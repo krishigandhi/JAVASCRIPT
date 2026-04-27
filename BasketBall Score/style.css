@@ -3,8 +3,12 @@
    border-radius: 16px;
 padding: 24px 32px;
 width: 560px;
-display: flex;
-flex-direction: row;
+justify-content: space-between; 
+align-items: center;
+}
+#namecard{
+    display: flex;
+    flex-direction: row;
 justify-content: space-between; 
 align-items: center;
 }
@@ -17,5 +21,47 @@ align-items: center;
     letter-spacing: 2px;
     text-align: center;
 }
+.scorecard{
+    display: flex;
+    justify-content: space-between;
+    color: #ff3b3b;
+     font-family: "Orbitron", sans-serif;
+     font-size: 70px;
+     text-align: center;
+     margin-top: 8px; 
+     margin-bottom: 12px;
+}
+#h{
+    background-color: black;
+   height: 100px;
+   width: 160px;
+   border-radius: 8px;
+}
+#g{
+    background-color: black;
+   height: 100px;
+   width: 160px;
+   border-radius: 8px;
+}
+.buttons {
+    display: flex;
+    /* background: transparent;
+    border-radius: 6px; */
+align-items: center;
+ gap: 18px;
+ justify-content: space-between;
+}
+#h1,#h2,#h3,#g1,#g2,#g3{
+    background: transparent;
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: #ffffff;
+    font-size: 14px;
+    padding: 6px 12px;
+   
+}
 
-
+.reset{
+    
+    text-align: center;
+}
