@@ -1,0 +1,35 @@
+body{
+/* background-color: rgb(3, 99, 3); */
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG0lvh_nvErLrIaTQBDkYyx_OzIkfvtxnbWg&s");
+background-size: cover;
+color: aliceblue;
+font-size:larger ;
+font-weight: bold;
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+ 
+}
+
+h1{
+    color: goldenrod;
+}
+
+#message{
+    font-style: italic;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
+}
+#start,#new{
+    color: #0a4922;
+    width: 150px;
+    height: 30px;
+    background-color: goldenrod;
+    font-weight: bold;
+    border-radius: 3px;
+    border-style: none;
+}
