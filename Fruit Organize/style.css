@@ -1,0 +1,17 @@
+body{
+    align-items: center;
+    justify-content: center;
+
+}
+
+#orange{
+    width: 100px;
+    background-color: orange;
+
+
+}
+#apple{
+    width: 100px;
+    background-color: rgb(154, 51, 20);
+
+}
