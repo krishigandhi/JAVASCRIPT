@@ -1,0 +1,12 @@
+#container{
+    display: flex;
+    /* size: 50px; */
+    width: 200px;
+    height: 200px;
+    gap: 20px;
+
+}
+
+.body{
+    background-color: #212121;
+}
