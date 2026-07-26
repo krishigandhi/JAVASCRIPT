@@ -22,7 +22,7 @@
 
 // Price : tea 10, dosa 40, cake 50, idli 35//
 
-function select(item){
+/*function select(item){
     let price = 0
 
     switch(item){
@@ -40,9 +40,12 @@ function select(item){
         case 'idli':
             price = 35
             break;
-        default : return 'item not available'
+        default : 
+        return ` ${item} is not available`
     }
      return `You seelcted ${item} and its price is Rs. ${price}`
 }
 
-console.log(select('doosa'))
+console.log(select('doosa')) */
+
+//**************************************** Object Destructuring ****************************************//
