@@ -49,3 +49,15 @@
 console.log(select('doosa')) */
 
 //**************************************** Object Destructuring ****************************************//
+ /*const dreamLife = {
+    position: 'softWare Developer',
+    company:'Google',
+    place: 'Banglore',
+    health: 'Fit and healthy'
+ }
+
+  const {position, company, place, health} = dreamLife
+
+  console.log(`My dream position is ${position} at ${company} in ${place} and really want a ${health} body`) */
+
+  
