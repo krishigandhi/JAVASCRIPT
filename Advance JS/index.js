@@ -59,10 +59,15 @@ console.log(select('doosa')) */
   const {position, company, place, health} = dreamLife
 
   console.log(`My dream position is ${position} at ${company} in ${place} and really want a ${health} body`) */
-function namee(ans,points){
+/*function namee(ans,points){
     console.log(`the ans is ${ans} and you got ${points} points `)
 }
   setTimeout(namee,3000,'New Delhi',10)
 
-console.log(`What is the capital of India ?`)
-  
+console.log(`What is the capital of India ?`)*/
+
+  //**************************************** Date Constructors //****************************************//
+  const tDate = new Date()
+  console.log(tDate)
+  console.log(tDate.getFullYear())
+  //****************************************Error Constructors //****************************************//
