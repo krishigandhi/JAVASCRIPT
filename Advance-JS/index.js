@@ -81,4 +81,4 @@ console.log(`What is the capital of India ?`)*/
 // else throw new Error("Num is less than 4");
 // console.log("Finished")
 
-
+//Hoisting //
