@@ -1,9 +1,0 @@
-function getStockData(){
-    return{
-        name: 'QtechAI',
-        sym: 'QTA',
-        price: Math.random(),
-        time: new Date()
-    }
-}
-export {getStockData}

@@ -1,15 +1,19 @@
-import { getStockData } from "./fakeStockAPI"
+import { getStockData } from "./fakeStockAPI.js"
 setInterval(function(){
     const stockData = getStockData()
     renderStockTicker(stockData)
 },1500)
 function renderStockTicker(stockData){
-const name = document.getElementById('#name')
-const sym =  document.getElementById('#symbol')
-const price = document.getElementById('#price')
-const time = document.getElementById('#time')
+const stocKname = document.getElementById('name')
+const stocKsym =  document.getElementById('sym')
+const stocKprice = document.getElementById('price')
+const stocKtime = document.getElementById('time')
 
 const{name,sym, price,time } = stockData
-}
 
-name.inne
+
+stocKname.innerHTML = `Name :  ${name}`;
+stocKsym.innerHTML =  `Symbol: ${sym}`
+stocKprice.innerHTML = `Price :${price}`
+stocKtime.innerHTML = `Time :${time}`
+}
