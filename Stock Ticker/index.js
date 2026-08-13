@@ -1,15 +1,15 @@
-function getData(){
-    return{
-        name: 'QtechAI',
-        sym: 'QTA',
-        price: Math.random(),
-        time: new Date()
-    }
-}
-for(let i=0;i< 10 ;i++){
-    console.log((Math.random()*4).toFixed(2))
+import { getStockData } from "./fakeStockAPI"
+setInterval(function(){
+    const stockData = getStockData()
+    renderStockTicker(stockData)
+},1500)
+function renderStockTicker(stockData){
+const name = document.getElementById('#name')
+const sym =  document.getElementById('#symbol')
+const price = document.getElementById('#price')
+const time = document.getElementById('#time')
 
+const{name,sym, price,time } = stockData
 }
 
-let date = new Date()
-console.log(date)
+name.inne
