@@ -14,3 +14,6 @@ nums.forEach(num => {
     console.log(sum)// This 
 });
 
+nums.forEach(function(n){
+    console.log(n * 11)
+})
