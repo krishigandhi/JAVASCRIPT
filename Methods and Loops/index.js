@@ -17,3 +17,7 @@ nums.forEach(num => {
 nums.forEach(function(n){
     console.log(n * 11)
 })
+/////////
+
+let arr = []
+
