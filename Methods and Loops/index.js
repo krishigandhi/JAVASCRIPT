@@ -17,7 +17,9 @@ nums.forEach(num => {
 nums.forEach(function(n){
     console.log(n * 11)
 })
-/////////
+/////////JOIN/////////////
 
-let arr = []
+let arr = ['a','bb','ccc']
+console.log(arr.join(' - '))
+
 
