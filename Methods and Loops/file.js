@@ -1,97 +1,44 @@
-const products = [
+const shows = [
     {
-        id: 1,
-        name: "Laptop",
-        category: "Electronics",
-        price: 65000,
-        rating: 4.5,
-        inStock: true,
-        brand: "Dell"
+        name: "The Big Bang Theory",
+        location: "Pasadena",
+        lengthInHours: 139.66,
+        genres: ["comedy", "nerd", "romance"]
     },
     {
-        id: 2,
-        name: "Headphones",
-        category: "Electronics",
-        price: 2500,
-        rating: 4.2,
-        inStock: true,
-        brand: "Sony"
+        name: "Breaking Bad",
+        location: "Albuquerque",
+        lengthInHours: 49.5,
+        genres: ["crime", "drama", "thriller"]
     },
     {
-        id: 3,
-        name: "Running Shoes",
-        category: "Footwear",
-        price: 4500,
-        rating: 4.7,
-        inStock: false,
-        brand: "Nike"
+        name: "Friends",
+        location: "New York",
+        lengthInHours: 88.5,
+        genres: ["comedy", "romance", "sitcom"]
     },
     {
-        id: 4,
-        name: "T-Shirt",
-        category: "Clothing",
-        price: 1200,
-        rating: 4.0,
-        inStock: true,
-        brand: "Adidas"
+        name: "Stranger Things",
+        location: "Hawkins",
+        lengthInHours: 35.2,
+        genres: ["sci-fi", "horror", "drama"]
     },
     {
-        id: 5,
-        name: "Smartphone",
-        category: "Electronics",
-        price: 32000,
-        rating: 4.6,
-        inStock: true,
-        brand: "Samsung"
+        name: "The Office",
+        location: "Scranton",
+        lengthInHours: 73.8,
+        genres: ["comedy", "workplace", "sitcom"]
     },
     {
-        id: 6,
-        name: "Backpack",
-        category: "Accessories",
-        price: 1800,
-        rating: 3.9,
-        inStock: true,
-        brand: "Puma"
-    },
-    {
-        id: 7,
-        name: "Watch",
-        category: "Accessories",
-        price: 5500,
-        rating: 4.3,
-        inStock: false,
-        brand: "Casio"
-    },
-    {
-        id: 8,
-        name: "Jeans",
-        category: "Clothing",
-        price: 2200,
-        rating: 4.1,
-        inStock: true,
-        brand: "Levis"
-    },
-    {
-        id: 9,
-        name: "Gaming Mouse",
-        category: "Electronics",
-        price: 3500,
-        rating: 4.8,
-        inStock: true,
-        brand: "Logitech"
-    },
-    {
-        id: 10,
-        name: "Sunglasses",
-        category: "Accessories",
-        price: 3000,
-        rating: 3.8,
-        inStock: false,
-        brand: "Ray-Ban"
+        name: "Game of Thrones",
+        location: "Westeros",
+        lengthInHours: 70.0,
+        genres: ["fantasy", "drama", "action"]
     }
 ];
 
-const names = products.filter(function(amount){
-    return amount.brand === 'Ray-Ban'
+const catogery = shows.filter(function(genre){
+    return genre.genres.includes('comedy')
 })
-console.log(names)
+
+console.log(catogery)
