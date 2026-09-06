@@ -22,4 +22,12 @@ nums.forEach(function(n){
 let arr = ['a','bb','ccc']
 console.log(arr.join(' - '))
 
+//////////Filter//////////
+let age = [10,8,12,5,21,18]
 
+console.log(age.filter(function(a){
+    if(a>=18) return true;
+    else return false;
+}))
+
+// console.log(age2)
